@@ -13,15 +13,15 @@ namespace PingPong.Calculators
         //
         if ((num % 5 == 0) && (num % 3 == 0))
         {
-          output.Add(" PingPong");
+          output.Add("PingPong");
         }
         else if(num % 5 == 0)
         {
-          output.Add(" Pong");
+          output.Add("Pong");
         }
         else if(num % 3 == 0) 
         {
-          output.Add(" Ping");
+          output.Add("Ping");
         }
         else 
         {
